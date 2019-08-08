@@ -1,0 +1,4 @@
+DROP DATABASE IF EXISTS `beerhouse` ;
+CREATE DATABASE IF NOT EXISTS `beerhouse` DEFAULT CHARACTER SET utf8;
+USE `beerhouse` ;
+

@@ -1,0 +1,399 @@
+{
+	"info": {
+		"_postman_id": "2e0156fb-f96e-4774-a3fe-97950abb3850",
+		"name": "SensediaBeerhouseTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/beers/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\t\r\n\t\"name\": \"Brahma\",\r\n\t\"ingredients\": \"Água, malte (de cevada), cereais não maltados, carboidratos e lúpulo\",\r\n    \"alcoholContent\": \"5,0%\",\r\n    \"price\": 2.39,\r\n    \"category\": \"pilsen\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/beers/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"beers",
+						""
+					]
+				},
+				"description": "Create beer brahma"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/beers/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\t\r\n\t\"name\": \"Brahma Extra Lager\",\r\n\t\"ingredients\": \"Água, malte (de cevada) e lúpulo\",\r\n    \"alcoholContent\": \"5,5%\",\r\n    \"price\": 2.99,\r\n    \"category\": \"lager\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/beers/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"beers",
+						""
+					]
+				},
+				"description": "Brahma Extra Lager"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/beers/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\t\r\n\t\"name\": \"Budweiser\",\r\n\t\"ingredients\": \"Água, cereais não-maltados (especialmente arroz) e lúpulo\",\r\n    \"alcoholContent\": \"5%\",\r\n    \"price\": 3.49,\r\n    \"category\": \"lager\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/beers/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"beers",
+						""
+					]
+				},
+				"description": "Budweiser "
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/beers/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\t\r\n\t\"name\": \"Skol\",\r\n\t\"ingredients\": \"Água, malte, cereais não malteados, carboidratos, lúpulo, antioxidante INS 316 e INS 221, estabilizante INS 405\",\r\n    \"alcoholContent\": \"4,7%\",\r\n    \"price\": 2.39,\r\n    \"category\": \"pilsen\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/beers/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"beers",
+						""
+					]
+				},
+				"description": "Skol"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/beers/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\t\r\n\t\"name\": \"Antarctica \",\r\n\t\"ingredients\": \"Água, malte (produzido com a cevada) e lúpulo\",\r\n    \"alcoholContent\": \"5,0%\",\r\n    \"price\": 2.55,\r\n    \"category\": \"pilsen\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/beers/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"beers",
+						""
+					]
+				},
+				"description": "Antarctica"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/beers/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\t\r\n\t\"name\": \"Heineken\",\r\n\t\"ingredients\": \"Água, 100% MALTE e lúpulo\",\r\n    \"alcoholContent\": \"5,4%\",\r\n    \"price\": 7.69,\r\n    \"category\": \"lager\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/beers/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"beers",
+						""
+					]
+				},
+				"description": "Heineken"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/beers/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/beers/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"beers",
+						""
+					]
+				},
+				"description": "Get all beers in DataBase"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/beers/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/beers/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"beers",
+						"5"
+					]
+				},
+				"description": "Get beer with id 5"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/beers/",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Skol\",\r\n    \"ingredients\": \"Água, malte, cereais não malteados, carboidratos, lúpulo, antioxidante INS 316 e INS 221, estabilizante INS 405\",\r\n    \"alcoholContent\": \"4,7%\",\r\n    \"price\": 3.19,\r\n    \"category\": \"pilsen\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/beers/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"beers",
+						"5"
+					]
+				},
+				"description": "Put new price in beer with id 5 "
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/beers/",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"alcoholContent\": \"5.9%\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/beers/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"beers",
+						"6"
+					]
+				},
+				"description": "PATCH: update only sigle field"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/beers/",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"price\": 1\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/beers/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"beers",
+						"5"
+					]
+				},
+				"description": "Update only single field"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/beers/",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/beers/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"beers",
+						"5"
+					]
+				},
+				"description": "Delete beer with id 5"
+			},
+			"response": []
+		}
+	]
+}
